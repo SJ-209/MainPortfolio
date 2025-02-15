@@ -14,5 +14,12 @@
     "postcss": "^8.5.2",
     "tailwindcss": "^4.0.6",
     "vite": "^6.1.0"
-  }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "preview": "vite preview"
+  },
+  "type": "module" 
 }

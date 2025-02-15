@@ -7,7 +7,7 @@ import Contact from "./components/Contact"
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="app">
       <Header />
       <Hero />
       <Experience />

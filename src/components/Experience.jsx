@@ -2,42 +2,40 @@ import { experiences, skills } from "../data"
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 bg-gray-50">
-      <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-12 text-center">Professional Experience</h2>
+    <section id="experience" className="experience">
+      <div className="container">
+        <h2>Professional Experience</h2>
 
-        <div className="grid md:grid-cols-2 gap-12">
-          <div>
-            <h3 className="text-2xl font-semibold mb-6">Work History</h3>
+        <div className="experience-grid">
+          <div className="work-history">
+            <h3>Work History</h3>
             {experiences.map((exp, index) => (
-              <div key={index} className="mb-8 bg-white p-6 rounded-lg shadow-md">
-                <h4 className="text-xl font-semibold">{exp.company}</h4>
-                <p className="text-blue-600 mb-2">{exp.role}</p>
-                <p className="text-gray-600 mb-4">{exp.period}</p>
-                <ul className="list-disc list-inside">
+              <div key={index} className="experience-item">
+                <h4>{exp.company}</h4>
+                <p className="role">{exp.role}</p>
+                <p className="period">{exp.period}</p>
+                <ul>
                   {exp.achievements.map((achievement, i) => (
-                    <li key={i} className="text-gray-700 mb-2">
-                      {achievement}
-                    </li>
+                    <li key={i}>{achievement}</li>
                   ))}
                 </ul>
               </div>
             ))}
           </div>
 
-          <div>
-            <h3 className="text-2xl font-semibold mb-6">Technical Skills</h3>
+          <div className="skills">
+            <h3>Technical Skills</h3>
             {skills.map((category, index) => (
-              <div key={index} className="mb-8 bg-white p-6 rounded-lg shadow-md">
-                <h4 className="text-xl font-semibold mb-4">{category.category}</h4>
+              <div key={index} className="skill-category">
+                <h4>{category.category}</h4>
                 {category.items.map((skill, i) => (
-                  <div key={i} className="mb-4">
-                    <div className="flex justify-between mb-1">
-                      <span className="font-medium">{skill.name}</span>
+                  <div key={i} className="skill-item">
+                    <div className="skill-info">
+                      <span>{skill.name}</span>
                       <span>{skill.level}%</span>
                     </div>
-                    <div className="w-full bg-gray-200 rounded-full h-2">
-                      <div className="bg-blue-600 rounded-full h-2" style={{ width: `${skill.level}%` }} />
+                    <div className="skill-bar">
+                      <div className="skill-progress" style={{ width: `${skill.level}%` }} />
                     </div>
                   </div>
                 ))}
