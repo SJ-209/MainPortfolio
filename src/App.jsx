@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Experience />
-      <YouTube />
+      {/* <YouTube /> */}
       <Projects />
       <Contact />
     </div>
