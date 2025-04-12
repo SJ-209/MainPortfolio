@@ -1,5 +1,3 @@
-"use client"
-
 import { useState } from "react"
 import { projects } from "../data"
 import { ExternalLink, Github } from "lucide-react"

@@ -2,15 +2,16 @@ import { ArrowRight } from "lucide-react"
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero " id="about">
       <div className="container hero-content">
         <div className="hero-text">
           <h1>
             Software Engineer & <span className="highlight">Web Developer</span>
           </h1>
           <p>
-            Building innovative solutions and sharing knowledge through code and content. Specialized in full-stack
-            development and technical education.
+          Innovative self-taught software developer with a passion for problem-solving and full-stack development. 
+          Proficient in React, JavaScript, Node.js, Express.js, and PostgreSQL. 
+          Backed by 17 years of military experience, recognized for strong leadership, strategic thinking, and delivering projects efficiently in high-pressure environments.
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">

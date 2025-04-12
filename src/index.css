@@ -8,7 +8,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: black;
+  background-color: whitesmoke;
 }
 
 .container {
@@ -24,8 +25,8 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
+  background-color: #023E8A;
+  backdrop-filter: blur(4px);
   z-index: 1000;
 }
 
@@ -34,6 +35,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  outline: #2563eb;
 }
 
 .nav-links {
@@ -110,21 +112,22 @@ body {
 }
 
 .btn-primary {
-  background-color: #3b82f6;
+  background-color: #e64833;
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: #2563eb;
+  background-color: #e648338a;
 }
 
 .btn-secondary {
-  border: 1px solid #3b82f6;
-  color: #3b82f6;
+  border: 1px solid #e64833;
+  background-color: #e64833;
+  color: white;
 }
 
 .btn-secondary:hover {
-  background-color: #eff6ff;
+  background-color: #e648338a;
 }
 
 .hero-image {
@@ -137,7 +140,7 @@ body {
 /* Experience section styles */
 .experience {
   padding: 5rem 0;
-  background-color: #f9fafb;
+  background-color: whitesmoke;
 }
 
 .experience h2 {
@@ -206,7 +209,7 @@ body {
 
 .skill-progress {
   height: 100%;
-  background-color: #3b82f6;
+  background-color: whitesmoke;
   border-radius: 9999px;
 }
 
@@ -247,7 +250,7 @@ body {
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
-
+/* 
 .youtube-content {
   display: grid;
   gap: 2rem;
@@ -282,12 +285,12 @@ body {
 .youtube-video {
   aspect-ratio: 16 / 9;
   width: 100%;
-}
+} */
 
 /* Projects section styles */
 .projects {
   padding: 5rem 0;
-  background-color: #f9fafb;
+  background-color: whitesmoke;
 }
 
 .projects h2 {
