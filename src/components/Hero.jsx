@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react"
+import React from 'react'
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">
-              View Projects <ArrowRight />
+              View Projects
             </a>
             <a href="#contact" className="btn btn-secondary">
               Contact Me

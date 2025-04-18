@@ -5,6 +5,7 @@ const Header = () => {
     <header className="header">
       <nav className="container nav">
         <h1>SJ</h1>
+        <p className="smallName">Sam Jenkins</p>
 
         <div className="nav-links">
           <a href="#about">About</a>
@@ -23,9 +24,9 @@ const Header = () => {
           <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
             <Youtube />
           </a>
-          <button className="menu-btn">
+          {/* <button className="menu-btn">
             <Menu />
-          </button>
+          </button> */}
         </div>
       </nav>
     </header>

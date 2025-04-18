@@ -1,4 +1,4 @@
-"use client"
+import React from 'react'
 
 import { useState } from "react"
 import { Mail, MessageSquare } from "lucide-react"
@@ -38,17 +38,17 @@ const Contact = () => {
             <div className="contact-methods">
               <div className="contact-method">
                 <Mail />
-                <a href="mailto:contact@example.com">contact@example.com</a>
+                <a href="mailto:sjcodesYT@protonmail.com">sjcodesYT@protonmail.com</a>
               </div>
               <div className="contact-method">
                 <MessageSquare />
-                <span>Available for freelance work</span>
+                <span>Available for work</span>
               </div>
             </div>
           </div>
 
           <form onSubmit={handleSubmit} className="contact-form">
-            <div className="form-group">
+            {/* <div className="form-group">
               <label htmlFor="name">Name</label>
               <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
             </div>
@@ -68,10 +68,10 @@ const Contact = () => {
                 rows={4}
                 required
               ></textarea>
-            </div>
+            </div> */}
 
             <button type="submit" className="submit-btn">
-              Send Message
+              <a className="email-btn" href="mailto:sjcodesYT@protonmail.com"> Email Me </a>
             </button>
           </form>
         </div>
