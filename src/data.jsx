@@ -21,7 +21,7 @@ export const projects = [
     description: "",
     image: "src/Assets/PJ.png",
     technologies: ["React", "JavaScript", "CSS", "HTML", "Render"],
-    liveDemo: "https://photo-journal.onrender.comf",
+    liveDemo: "https://photo-journal.onrender.com",
     github: "https://github.com/SJ-209/photo-journal",
     impact: "Users commented on productivity increases of over 80% while using Fast Folders with Google Gemini",
   },
