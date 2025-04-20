@@ -21,9 +21,9 @@ const Header = () => {
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
             <Linkedin />
           </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
             <Youtube />
-          </a>
+          </a> */}
           {/* <button className="menu-btn">
             <Menu />
           </button> */}

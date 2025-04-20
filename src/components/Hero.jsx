@@ -9,8 +9,8 @@ const Hero = () => {
             Software Engineer & <span className="highlight">Web Developer</span>
           </h1>
           <p>
-          Innovative self-taught software developer with a passion for problem-solving and full-stack development. 
-          Proficient in React, JavaScript, Node.js, Express.js, and PostgreSQL. 
+          Innovative self-taught software developer with a passion for problem-solving and front end development. 
+          Proficient in React, JavaScript, HTML, CSS and have experience with Node.js, Express.js, and PostgreSQL. 
           Backed by 17 years of military experience, recognized for strong leadership, strategic thinking, and delivering projects efficiently in high-pressure environments.
           </p>
           <div className="hero-buttons">

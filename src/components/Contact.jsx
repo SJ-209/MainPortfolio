@@ -23,6 +23,21 @@ const Contact = () => {
     })
   }
 
+  const handleEmailClick = () => {
+    const email = "sjcodesYT@protonmail.com";
+      const subject = "Hey Sam - Let's Connect!";
+      const body = "Hi Sam,\n\nI hope this message finds you well. I wanted to reach out to discuss...";
+    
+        // Try opening Gmail in a new tab
+        const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+        const newTab = window.open(gmailUrl, '_blank');
+    
+        // If the new tab fails to open (e.g., due to pop-up blockers), fallback to mailto:
+        if (!newTab || newTab.closed || typeof newTab.closed === 'undefined') {
+            window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+        }
+  }
+
   return (
     <section id="contact" className="contact">
       <div className="container">
@@ -70,8 +85,9 @@ const Contact = () => {
               ></textarea>
             </div> */}
 
-            <button type="submit" className="submit-btn">
-              <a className="email-btn" href="mailto:sjcodesYT@protonmail.com"> Email Me </a>
+            <button type="submit" className="submit-btn" onClick={handleEmailClick}>
+              {/* <a className="email-btn" href="mailto:sjcodesYT@protonmail.com"> Email Me </a> */}
+              Email me
             </button>
           </form>
         </div>

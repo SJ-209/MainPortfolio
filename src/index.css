@@ -447,8 +447,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 100%;
 }
 
 .form-group {
@@ -504,6 +503,13 @@ body {
     display: flex;
   }
 
+  .nav {
+    padding: 1rem 2rem;
+  }
+  .nav-links a {
+    margin-left: 2rem;
+  }
+
   .hero-content {
     flex-direction: row;
   }
@@ -529,9 +535,28 @@ body {
   } */
 }
 
+@media (max-width: 767px) {
+  .nav {
+    padding: 1rem 2rem;
+  }
+
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
 @media (min-width: 1024px) {
   .projects-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+  .nav {
+    padding: 1rem 2rem;
   }
 }
 
