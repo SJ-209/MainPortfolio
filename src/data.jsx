@@ -29,13 +29,13 @@ export const projects = [
 
 export const experiences = [
   {
-    company: "BA.",
+    company: "British Army - The Rifles & Royal Signals.",
     role: "Section Commander/Sniper/SFC/Technical Engineer",
     period: "2008 - Present",
     achievements: [
       "Served 17 years in the military, deploying globally to multiple operational theaters.",
       "Held leadership roles such as Section Commander at ITC Catterick, training and mentoring new soldiers.",
-      "Operated as a Technical Engineer within a British Special Missions Unit, executing high-stakes operations in dynamic, high-pressure environments.",
+      "Operated as a Technical Engineer within the British Army, executing high-stakes operations in dynamic, high-pressure environments.",
       "Experienced in remote operations, strategic planning, and rapid decision-making, delivering critical effects in fast-moving, high-intensity situations.",
       "Proven ability to lead, adapt, and perform under pressure.",
     ],
@@ -60,15 +60,15 @@ export const skills = [
     items: [
       { name: "React", level: 95 },
       { name: "JavaScript", level: 90 },
-      { name: "Tailwind CSS", level: 85 },
+      { name: "CSS", level: 85 },
     ],
   },
   {
     category: "Backend",
     items: [
-      { name: "Node.js", level: 90 },
-      { name: "Express", level: 85 },
-      { name: "PostgreSQL", level: 80 },
+      { name: "Node.js", level: 40 },
+      { name: "Express", level: 30 },
+      { name: "PostgreSQL", level: 30 },
     ],
   },
 ]
