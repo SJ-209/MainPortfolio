@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Fast Folders",
     description: "A chrome extension for real time Google Gemini chat organization tool, built with React.js implementing stripe payments through extensionpay",
-    image: "src/Assets/FF.jpg",
+    image: "./assets/FF.jpg",
     technologies: ["React", "JavaScript", "Stripe", "Tailwind CSS", "Extension Pay"],
     liveDemo: "https://chromewebstore.google.com/detail/google-gemini-folders-cha/dgmakhnmibfdnkhopleclbfmfncdmfhf",
     github: "https://github.com/example",
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: "Assembly Endgame",
     description: "Assembly Endgame is a word-guessing game inspired by the classic game Hangman. Developed as part of Scrimba's course project, the goal is to guess the hidden word within a limited number of attempts while avoiding incorrect guesses. Each incorrect guess eliminates a programming language, and the game is over when all languages are lost.",
-    image: "src/Assets/AE.png",
+    image: "./assets/AE.png",
     technologies: ["React.JS", "HTML", "CSS", "Render"],
     liveDemo: "https://assembly-endgame-mtkz.onrender.com",
     github: "https://github.com/SJ-209/Assembly-endgame"
@@ -19,7 +19,7 @@ export const projects = [
   {
     title: "Photo Journal",
     description: "",
-    image: "src/Assets/PJ.png",
+    image: "./assets/PJ.png",
     technologies: ["React", "JavaScript", "CSS", "HTML", "Render"],
     liveDemo: "https://photo-journal.onrender.com",
     github: "https://github.com/SJ-209/photo-journal",
