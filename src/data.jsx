@@ -17,6 +17,14 @@ export const projects = [
     github: "https://github.com/SJ-209/Assembly-endgame"
   },
   {
+    title: "Fast Folders Landing Page",
+    description: "This is a landing page for the Fast Folders Chrome extension, designed to provide users with an overview of the extension's features and benefits. The page is built using React.js and Tailwind CSS, ensuring a responsive and visually appealing design. It serves as a promotional tool to attract users to download the extension.",
+    image: "./assets/FF-LP2.png",
+    technologies: ["React", "JavaScript", "CSS", "HTML", "Render"],
+    liveDemo: "https://www.getfastfolders.com/",
+    github: "https://github.com/SJ-209/fast-folders-lp2",
+  },
+  {
     title: "Photo Journal",
     description: "This Photo Journal project is a web application designed to display a collection of photographs with associated descriptions and locations. It was developed to explore and implement key front-end development principles, particularly the importance of component reusability and driving the user interface (UI) dynamically with data. The application likely features a visually appealing layout to present the journal entries.",
     image: "./assets/PJ.png",
