@@ -20,7 +20,7 @@ export const projects = [
     title: "Fast Folders Landing Page",
     description: "This is a landing page for the Fast Folders Chrome extension, designed to provide users with an overview of the extension's features and benefits. The page is built using React.js and Tailwind CSS, ensuring a responsive and visually appealing design. It serves as a promotional tool to attract users to download the extension.",
     image: "./assets/FF-LP2.png",
-    technologies: ["React", "JavaScript", "CSS", "HTML", "Render"],
+    technologies: ["React", "JavaScript", "Tailwind CSS", "HTML", "Render"],
     liveDemo: "https://www.getfastfolders.com/",
     github: "https://github.com/SJ-209/fast-folders-lp2",
   },
@@ -31,6 +31,13 @@ export const projects = [
     technologies: ["React", "JavaScript", "CSS", "HTML", "Render"],
     liveDemo: "https://photo-journal.onrender.com",
     github: "https://github.com/SJ-209/photo-journal",
+  },
+  {
+    title: "Password Generator",
+    description: "The Password Generator project is a web application that allows users to create secure and random passwords. It was developed to demonstrate the use of JavaScript for generating random strings and implementing user-friendly features such as password length selection and character type inclusion. The application likely includes a simple and intuitive interface for users to customize their password generation preferences.",
+    image: "./assets/PG.png",
+    technologies: ["JavaScript", "CSS", "HTML",],
+    github: "https://github.com/SJ-209/password-generator",
   },
 ]
 
