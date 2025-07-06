@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="container nav">
-        <h1>SJ</h1>
-        <p className="smallName">Sam Jenkins</p>
+        <h1>SC</h1>
+        <p className="smallName">Sam Camillo</p>
 
         <div className="nav-links">
           <a href="#about">About</a>

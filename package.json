@@ -3,7 +3,8 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "lucide-react": "^0.482.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-intersection-observer": "^9.16.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",

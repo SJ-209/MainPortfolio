@@ -24,7 +24,7 @@ const Contact = () => {
   }
 
   const handleEmailClick = () => {
-    const email = "sjcodesYT@protonmail.com";
+    const email = "infomail26@protonmail.com";
       const subject = "Hey Sam - Let's Connect!";
       const body = "Hi Sam,\n\nI hope this message finds you well. I wanted to reach out to discuss...";
     

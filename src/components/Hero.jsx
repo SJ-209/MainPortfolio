@@ -5,6 +5,9 @@ const Hero = () => {
     <section className="hero " id="about">
       <div className="container hero-content">
         <div className="hero-text">
+          <h5 className='about-me'>
+            About me
+          </h5>
           <h1>
             Software Engineer & <span className="highlight">Web Developer</span>
           </h1>
