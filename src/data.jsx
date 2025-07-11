@@ -44,7 +44,7 @@ export const projects = [
 export const experiences = [
   {
     company: "British Army - The Rifles & Royal Signals.",
-    role: "Section Commander/Sniper/SFC/Technical Engineer",
+    role: "Section Commander/Sniper/Technical Engineer",
     period: "2008 - Present",
     achievements: [
       "Served 17 years in the military, deploying globally to multiple operational theaters.",
