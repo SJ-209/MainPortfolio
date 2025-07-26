@@ -3,7 +3,7 @@ import React from 'react'
 import { useState } from "react"
 import { Mail, MessageSquare } from "lucide-react"
 
-const Contact = () => {
+const Contact = ({ handleEmailClick }) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -21,21 +21,6 @@ const Contact = () => {
       ...formData,
       [e.target.name]: e.target.value,
     })
-  }
-
-  const handleEmailClick = () => {
-    const email = "infomail26@protonmail.com";
-      const subject = "Hey Sam - Let's Connect!";
-      const body = "Hi Sam,\n\nI hope this message finds you well. I wanted to reach out to discuss...";
-    
-        // Try opening Gmail in a new tab
-        const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
-        const newTab = window.open(gmailUrl, '_blank');
-    
-        // If the new tab fails to open (e.g., due to pop-up blockers), fallback to mailto:
-        if (!newTab || newTab.closed || typeof newTab.closed === 'undefined') {
-            window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
-        }
   }
 
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hero = () => {
+const Hero = ({ handleEmailClick }) => {
   return (
     <section className="hero " id="about">
       <div className="container hero-content">
@@ -20,9 +20,9 @@ const Hero = () => {
             <a href="#projects" className="btn btn-primary">
               View Projects
             </a>
-            <a href="#contact" className="btn btn-secondary">
+            <button onClick={handleEmailClick} className="btn btn-secondary">
               Contact Me
-            </a>
+            </button>
           </div>
         </div>
         <div className="hero-image-container">
